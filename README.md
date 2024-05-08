@@ -1,5 +1,7 @@
 # L³ types
 
+[![npm version](https://badge.fury.io/js/@lambda-lambda-lambda%2Ftypes.svg)](https://badge.fury.io/js/@lambda-lambda-lambda%2Ftypes) [![Build Status](https://img.shields.io/github/actions/workflow/status/lambda-lambda-lambda/types/.github%2Fworkflows%2Fci.yml)](https://github.com/lambda-lambda-lambda/types/actions)
+
 [L³](https://github.com/lambda-lambda-lambda) application [TypeScript](https://www.typescriptlang.org) type definitions.
 
 ## Dependencies
