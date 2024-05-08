@@ -1,0 +1,39 @@
+{
+  "name": "@lambda-lambda-lambda/types",
+  "description": "L³ application TypeScript type definitions.",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./cli": {
+      "types": {
+        "import": "./src/cli.d.mts",
+        "require": "./src/cli.d.ts"
+      }
+    }
+  },
+  "scripts": {
+    "test": "eslint test/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambda-lambda-lambda/types.git"
+  },
+  "keywords": [
+    "lambda-lambda-lambda",
+    "typescript",
+    "types"
+  ],
+  "bugs": {
+    "url": "https://github.com/lambda-lambda-lambda/types/issues"
+  },
+  "homepage": "https://github.com/lambda-lambda-lambda/types#readme",
+  "author": "Marc S. Brooks <devel@mbrooks.info> (https://mbrooks.info)",
+  "license": "MIT",
+  "devDependencies": {
+    "@lambda-lambda-lambda/cli": "^0.6.2",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint-plugin-expect-type": "^0.4.0",
+    "typescript": "^5.4.5"
+  }
+}
