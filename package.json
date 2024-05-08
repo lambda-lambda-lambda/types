@@ -2,11 +2,10 @@
   "name": "@lambda-lambda-lambda/types",
   "description": "L³ application TypeScript type definitions.",
   "version": "0.0.1",
-  "type": "module",
   "exports": {
     "./cli": {
       "types": {
-        "import": "./src/cli.d.mts",
+        "import": "./src/cli.d.ts",
         "require": "./src/cli.d.ts"
       }
     }

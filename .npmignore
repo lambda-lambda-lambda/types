@@ -1,4 +1,4 @@
 .vscode
-eslint.config.js
+eslint.config.mjs
 test
 tsconfig.json
