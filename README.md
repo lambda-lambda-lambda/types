@@ -12,6 +12,13 @@ Install the command-line utility using [NPM](https://npmjs.com).
 
     $ npm install -g @lambda-lambda-lambda/types
 
+## Usage
+
+```javascript
+
+import {AppConfig} from '@lambda-lambda-lambda/types/cli';
+```
+
 ## Developers
 
 ### CLI options
