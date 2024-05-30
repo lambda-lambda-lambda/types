@@ -1,7 +1,7 @@
 {
   "name": "@lambda-lambda-lambda/types",
   "description": "L³ application TypeScript type definitions.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "exports": {
     "./cli": {
       "types": {
