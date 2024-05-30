@@ -27,7 +27,7 @@ export interface AppConfig {
   /**
    * Use asynchronous handler?
    */
-  asynchronous: string,
+  asynchronous: boolean | string,
 
   /**
    * Function timeout (in seconds)
