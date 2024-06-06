@@ -13,3 +13,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) a
 ### Updated
 
 - Prep deprecation of `asynchronous` Yes/No values ([VS Code extension integration artifact](https://github.com/lambda-lambda-lambda/vscode-extension/blob/master/src/extension.ts#L70))
+
+## [0.0.3] - 2024-06-06
+
+### Updated
+
+- Added `routePrefix` to `TemplateVars`
