@@ -83,9 +83,14 @@ export interface TemplateVars {
   cfResourceName?: string | undefined,
 
   /**
-   * Router path (Example: /api)
+   * Router path (Example: /example)
    */
   routePath: string,
+
+  /**
+   * Router prefix (Example: /api or undefined)
+   */
+  routePrefix?: string | undefined,
 
   /**
    * Node version number
